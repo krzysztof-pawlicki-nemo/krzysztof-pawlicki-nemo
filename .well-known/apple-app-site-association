@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["25MN4DJ7HR.de.neofonie-mobile.adac.tutorial.redirect"],
+        "components": [
+          { "/": "/return/tutorial", "comment": "Redirect demo return (ADAC Tutorial)" },
+          { "/": "/return/tutorial/*" }
+        ]
+      }
+    ]
+  }
+}
