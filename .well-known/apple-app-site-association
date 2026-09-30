@@ -5,7 +5,16 @@
         "appIDs": ["25MN4DJ7HR.de.neofonie-mobile.adac.tutorial.redirect"],
         "components": [
           { "/": "/return/tutorial", "comment": "Redirect demo return (ADAC Tutorial)" },
-          { "/": "/return/tutorial/*" }
+          { "/": "/return/tutorial/*" },
+          { "/": "/shared/*", "comment": "Overlap experiment: also claimed by the second app below" }
+        ]
+      },
+      {
+        "appIDs": ["25MN4DJ7HR.de.neofonie-mobile.adac.tutorial.redirect.alt"],
+        "components": [
+          { "/": "/return/pannenhilfe", "comment": "Redirect demo return (second app, Pannenhilfe R)" },
+          { "/": "/return/pannenhilfe/*" },
+          { "/": "/shared/*", "comment": "Overlap experiment: also claimed by the first app above" }
         ]
       }
     ]
