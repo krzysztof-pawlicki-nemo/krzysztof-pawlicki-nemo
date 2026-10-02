@@ -2,7 +2,10 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["25MN4DJ7HR.de.neofonie-mobile.adac.tutorial.redirect"],
+        "appIDs": [
+          "TA59ZTDJ9E.de.neofonie-mobile.adac.tutorial.redirect",
+          "25MN4DJ7HR.de.neofonie-mobile.adac.tutorial.redirect"
+        ],
         "components": [
           { "/": "/return/tutorial", "comment": "Redirect demo return (ADAC Tutorial)" },
           { "/": "/return/tutorial/*" },
@@ -10,7 +13,10 @@
         ]
       },
       {
-        "appIDs": ["25MN4DJ7HR.de.neofonie-mobile.adac.tutorial.redirect.alt"],
+        "appIDs": [
+          "TA59ZTDJ9E.de.neofonie-mobile.adac.tutorial.redirect.alt",
+          "25MN4DJ7HR.de.neofonie-mobile.adac.tutorial.redirect.alt"
+        ],
         "components": [
           { "/": "/return/pannenhilfe", "comment": "Redirect demo return (second app, Pannenhilfe R)" },
           { "/": "/return/pannenhilfe/*" },
